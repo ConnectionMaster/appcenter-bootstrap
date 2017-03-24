@@ -3,13 +3,13 @@
 To get started with Mobile Center's command line tool, run this command in your terminal:
 
 ```shell
-sh -c "$(curl -fsSL http://bit.ly/2ngg8R4)"
+sh -c "$(curl -fsSL http://bit.ly/2nOapms)"
 ```
 
 For the extra-cautious, here's the same without the shortened URL:
 
 ```shell
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/dvdsgl/mobile-center-bootstrap/master/bootstrap.sh)"
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/MobileCenter/mobile-center-bootstrap/master/bootstrap.sh)"
 ```
 
 # Using this module in other modules
