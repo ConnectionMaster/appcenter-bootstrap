@@ -17,7 +17,8 @@
   "scripts": {
     "test": "gulp test",
     "build": "gulp build",
-    "clean": "gulp clean"
+    "clean": "gulp clean",
+    "publish": "npm run clean build && npm version patch && npm publish"
   },
   "dependencies": {},
   "bin": {
