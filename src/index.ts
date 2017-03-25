@@ -1,3 +1,3 @@
 export function main() {
-    console.log("Coming soon...");
+    console.log("Mobile Center Bootstrap is coming soon.");
 }
