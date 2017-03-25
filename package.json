@@ -1,6 +1,6 @@
 {
   "name": "mobile-center-bootstrap",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "mobile-center-bootstrap",
   "license": "MIT",
   "repository": "https://github.com/MobileCenter/mobile-center-bootstrap",
@@ -9,7 +9,8 @@
     ""
   ],
   "files": [
-    "lib", "bin"
+    "lib",
+    "bin"
   ],
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
@@ -18,8 +19,7 @@
     "build": "gulp build",
     "clean": "gulp clean"
   },
-  "dependencies": {
-  },
+  "dependencies": {},
   "bin": {
     "mobile-center-bootstrap": "./bin/mobile-center-bootstrap.js"
   },
