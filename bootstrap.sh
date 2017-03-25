@@ -52,18 +52,7 @@ sudo installer -verboseR -pkg $NODE_PKG -target / > /dev/null
 rm -rf $NODE_PKG
 
 echo "Installing mobile-center command line tool..."
-sudo npm install -g --loglevel silent mobile-center-cli > /dev/null
+sudo npm install -g --loglevel silent mobile-center-bootstrap > /dev/null
 
 focus
-echo "Great! Everything is installed. Let's get you logged into Mobile Center"
-echo
-echo "$ mobile-center login"
-echo
-mobile-center login
-
-focus
-echo "You're all logged in! Let's see which apps you have:"
-echo
-echo "$ mobile-center apps list"
-echo
-mobile-center apps list
+mobile-center-bootstrap
