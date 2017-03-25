@@ -18,7 +18,7 @@
     "test": "gulp test",
     "build": "gulp build",
     "clean": "gulp clean",
-    "release": "npm run clean build && npm version patch && git commit package.json -m 'Bump version' && npm publish"
+    "release": "npm run clean build && npm version patch && npm publish"
   },
   "dependencies": {},
   "bin": {
