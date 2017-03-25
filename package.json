@@ -1,15 +1,15 @@
 {
   "name": "mobile-center-bootstrap",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "mobile-center-bootstrap",
   "license": "MIT",
-  "repository": "",
-  "author": "",
+  "repository": "https://github.com/MobileCenter/mobile-center-bootstrap",
+  "author": "David Siegel",
   "keywords": [
     ""
   ],
   "files": [
-    "lib"
+    "lib", "bin"
   ],
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
@@ -17,7 +17,9 @@
     "test": "gulp test"
   },
   "dependencies": {
-    "@types/node": "6.0.31"
+  },
+  "bin": {
+    "mobile-center-bootstrap": "./bin/mobile-center-bootstrap.js"
   },
   "devDependencies": {
     "@types/chai": "3.4.30",
@@ -31,7 +33,8 @@
     "gulp-tslint": "^6.0",
     "ts-node": "^1.2.2",
     "tslint": "3.14.0-dev.1",
-    "typescript": "2.0.0"
+    "typescript": "2.0.0",
+    "@types/node": "6.0.31"
   },
   "engines": {
     "node": ">=4.0.0"

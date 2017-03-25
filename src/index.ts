@@ -1,6 +1,3 @@
-import { Greeter } from "./greeter";
-
-function makeGreeter() {
-    return new Greeter("David");
+export function main() {
+    console.log("Coming soon...");
 }
-console.log(makeGreeter().greet());
