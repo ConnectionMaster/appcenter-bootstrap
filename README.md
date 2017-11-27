@@ -1,6 +1,6 @@
-# Mobile Center
+# App Center
 
-To get started with Mobile Center's command line tool, run this command in your terminal:
+To get started with App Center's command line tool, run this command in your terminal:
 
 ```shell
 sh -c "$(curl -fsSL http://bit.ly/2nOapms)"
